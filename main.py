@@ -105,7 +105,8 @@ def random_fan_lifecycle():
             fan_on()
         
 
-    
+turn_on_all()
+time.sleep(1)
 turn_off_all()
 clear()
 
